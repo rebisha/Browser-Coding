@@ -1,0 +1,13 @@
+.hasChildren {
+    &::before {
+        content: "▼";
+    }
+}
+
+.hasNoChildren {
+    list-style: disc;
+}
+
+li {
+    list-style: none;
+}
